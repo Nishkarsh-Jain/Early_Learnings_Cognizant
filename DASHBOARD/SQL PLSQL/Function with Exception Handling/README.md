@@ -12,4 +12,4 @@ Please go through the below Function and Exception spec: (a) Function: Create a 
 Note: DO NOT CHANGE the given error code or error message description in your solution. Note: Kindly use variable to print the exceptions 
  Use '/' to terminate your query before compilation and evaluation
 
-<img scr="order 2015(2).png"/>
+<img src="order 2105 (2).png"/>
