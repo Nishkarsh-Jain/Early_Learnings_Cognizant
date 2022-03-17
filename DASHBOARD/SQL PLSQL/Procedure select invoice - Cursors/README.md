@@ -6,4 +6,4 @@ Create a procedure named 'select_invoice' that is used to display the details of
 **Output parameter:** invoice_details with data type as SYS_REFCURSOR.
 Note: Use '/' to terminate your query before compilation and evaluation
 
-<img src="!order 2105.png">
+<img src="order 2105.png">
