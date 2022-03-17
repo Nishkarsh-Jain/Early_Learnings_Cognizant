@@ -6,9 +6,11 @@ Circle :
 
 
 Radius	Number(5)
+<br>
 Area	Number(7,2)
 
 Assume that the circle table has been already created.
+<br>
 Note: Use '/' to terminate your query before compilation and evaluation.
 SQL Programming
 
