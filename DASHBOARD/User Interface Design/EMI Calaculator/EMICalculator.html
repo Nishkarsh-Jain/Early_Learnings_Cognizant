@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+</head>
+
+     <style>
+			h1{text-align: center;
+			   color: #F00000;
+			   font-style: italic;
+			   font-weight: bold;}
+				
+			table{text-align: left;
+				  margin-left: 35%;
+				  background-color: #AA99A4 ;}
+			
+			td{	padding: 10px; }
+     </style>
+<body>
+    <form onsubmit="calculateEMI();">
+        <h1>EMI Calculator</h1>
+        <table>
+         
+            <tr>
+                <td><label id="l_principalAmount" >Principal Amount in Rs.</label></td>
+                <td><input type="number" id="principalAmount" placeholder="Principal Amount" required></td>
+            </tr>
+            <tr>
+                <td><label id="l_interestRate">Interest Per Annum</label></td>
+                <td><input type="number" id="interestRate" placeholder="Interest Per Annum" required></td>
+            </tr>
+             <tr>
+                <td><label id="l_tenure">Tenure in Months</label></td>
+                <td><input type="number" id="tenure" placeholder="Tenure in Months" required></td>
+            </tr>
+             
+            <tr>
+            	<td align="right"><input type="submit" id="submit" value="Calculate" > </td>
+            	<td align="left"><input type="reset" id="reset"  value="Clear" > </td>
+            </tr>
+           
+           <tr>
+               <td id="result"></td>
+           </tr>
+        </table>
+        </form>
+        
+        
+      <script src="EMICalculator.js"> </script>
+      
+</body>
+</html>

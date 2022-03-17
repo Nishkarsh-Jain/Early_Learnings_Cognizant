@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculator</title>
+    <link rel="stylesheet" href="billcal.css">
+</head>
+<body>
+    <form onsubmit="return calculateTotalPrice();">
+        <h1>Bill Calculator</h1>
+        <table>
+            <tr>
+        <td>Product Name</td>
+        <td><input type='text' id='productName' placeholder='Product Name' required>
+        </td>
+        </tr>
+        <tr>
+        <td>Poduct Price in Rs.</td>
+        <td><input type="number" id="price" placeholder="Product Price" required>
+        </td>
+        </tr>
+        <tr>
+        <td>Quality</td>
+        <td><input type="number" id="qty" min="1" placeholder="Enter quantity" required>
+        </td>
+        </tr>
+        <tr>
+        <td>Total Price in Rs.</td>
+        <td><output type="text" id="totalprice" required></output>
+        </td>
+        </tr>
+        <tr>
+        <td>
+        <input type="submit" id="submit">
+        </td>
+        </tr>
+        
+    </table>
+    </form>
+      <script>
+        
+        function calculateTotalPrice(){
+            var P=document.getElementById("price").value;
+            var Q=document.getElementById("qty").value;
+            var r=P*Q;
+            document.getElementById("totalprice").innerHTML=r;
+            return false;
+        }
+    </script>
+</body>
+</html>

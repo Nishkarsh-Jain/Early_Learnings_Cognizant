@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greetings DOM</title>
+    <style>
+        table, tr, td{
+        border:1px solid black;    
+        }
+    </style>
+</head>
+<body>
+    <h1>Elite Coaching Center</h1>
+        <table>
+            <tr>
+                <td>Student Name</td>
+                <td><input type="text" id="sname" required></td>
+            </tr>
+            
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select id="course" required>
+
+                    <option value="Python" >Python</option>
+                    <option value="Java" >Java</option>
+                    <option value="Oracle" >Oracle</option>
+                        
+                    </select>
+                </td>
+            </tr>
+        </table>
+        
+            <div>
+                <input type="button" id="submit" onclick="display()" value="Register">
+            </div>
+           
+            
+            <div id="greet"></div>
+            
+        
+        <script src="script.js">
+            
+        </script>
+</body>
+</html>
