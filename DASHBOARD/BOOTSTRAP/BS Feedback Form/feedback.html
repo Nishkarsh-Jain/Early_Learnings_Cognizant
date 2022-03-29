@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- DO NOT DELETE THE GIVEN TEMPLATE. FILL YOUR CODE WHEREVER NECESSARY -->
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Feedback form</h2>
+      <form action="#" class="form-group" onsubmit="return false">
+        <div>
+          <label for="customerName">Customer Name:</label>
+          <!-- fill your code for customerName -->
+          <input
+            type="text"
+            class="form-control"
+            id="customerName"
+            name="Customer Name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div>
+          <label for="mobileNumber">Mobile Number:</label>
+          <!-- fill your code for mobileNumber -->
+          <input
+            type="text"
+            class="form-control"
+            id="mobileNumber"
+            name="Mobile Number"
+            placeholder="Enter your mobile number"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <!-- fill your code for email -->
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="Email"
+            placeholder="Enter email"
+          />
+        </div>
+
+        <div class="form-check">
+          <label for="gender">Gender:</label>
+
+          <!-- fill your code for gender - male -->
+          <input
+            type="radio"
+            class="form-check-input"
+            id="male"
+            name="gender"
+            value="male"
+          />
+
+          <label class="form-check-label"> Male </label>
+
+          <!-- fill your code for gender - female -->
+          <input
+            type="radio"
+            class="form-check-input"
+            id="female"
+            name="gender"
+            value="female"
+          />
+
+          <label class="form-check-label">Female </label>
+        </div>
+        <div>
+          <label for="remarks">Remarks:</label>
+          <!-- fill your code for remarks -->
+          <textarea
+            id="remarks"
+            class="form-control"
+            name="Remarks"
+            placeholder="Enter your remarks"
+          ></textarea>
+        </div>
+        <div>
+          <!-- fill your code for subscribe -->
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="subscribe"
+            name="Subscribe"
+          />
+
+          <label> Accept to subscribe for newsletters through email</label>
+        </div>
+
+        <div>
+          <!-- fill your code for submit -->
+          <input
+            type="submit"
+            id="sumnit"
+            name="Sumit"
+            class="btn btn-success btn-lg"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
